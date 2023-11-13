@@ -1,0 +1,38 @@
+.box {
+    background-color: lightcoral;
+    width: 200px;
+    height: 200px;
+    animation: myanimation 8s infinite ease-in;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes myanimation {
+    0% {
+        width: 200px;
+        height: 200px;
+    }
+    25% {
+        background-color: rgb(255, 255, 0);
+        width: 1536px;
+        height: 200px;
+    }
+    50% {
+        background-color: rgb(34, 255, 0);
+        width: 1236px;
+        height: 200px;
+    }
+    75% {
+        background-color: rgb(255, 0, 0);
+        height: 720px;
+        width: 1236px;
+    }
+    100% {
+        background-color: rgb(140, 0, 255);
+        width: 1536px;
+        height: 724px;
+    }
+}
